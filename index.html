@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>markim</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navMenu" class="background-textura">
+            <div id="logo" class="logo center-middle">
+                <a href="http://www.globo.com/">markim</a>
+            </div>
+            <span id="iconMenu" class="fa fa-bars icon-menu"></span>
+            <ul id="menu" class="menu">
+                <li><a href="#"><span class="fa fa-home"></span>Home</a></li>
+                <li><a href="tutoriais.html"><span class="fa fa-book"></span>Tutoriais</a></li>
+                <li><a id="btnMenu"><span class="fa fa-terminal"></span>Programmer <span class="fa fa-level-down" id="icon"></span></a>
+                    <ul id="myDropdown" class="sub-menu text-center">
+                        <li>
+                            <a href="#">Meus Projetos</a>
+                        </li>
+                        <li>
+                            <a href="#">About me</a>
+                        </li>
+                        <li>
+                            <a href="#">Curriculo</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contato.html"><span class="fa fa-address-card"></span>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="intro text-center">
+            <div class="mySlides fadeIn">
+                <div class="efect">
+                    <div class="overlay center-middle">
+                        <a href="" class="text"><span class="fa fa-facebook-f"></span></a>
+                        <a href="" class="text"><span class="fa fa-twitter"></span></a>
+                    </div>
+                </div>
+                <h1>Eu sou programador e <span class="negativa">não</span> faço gambiarras!</h1>
+                <a href="#" class="btn-intro btn-about-me flipInX">About me</a>
+                <a href="#" class="btn-intro btn-tutoriais flipInX">Tutoriais</a>
+            </div>
+
+            <div class="mySlides fadeIn">
+                <figure>
+                    <img src="img/pp.jpg" alt="me" width="200" height="200" />
+                </figure>
+                <h2>markim.com.br</h2>
+                <p>Compartilhando conhecimento adquiridos ao longo da minha jornada de desenvolvimento</p>
+                <a href="" class="btn-intro btn-git flipInX"><span class="fa fa-github"></span> GitHub</a>
+                <a href="" class="btn-intro btn-jsfiddle flipInX"><span class="fa fa-jsfiddle"></span> Jsfiddle</a>
+            </div>
+
+
+            <div class="mySlides fadeIn">
+                <figure>
+                    <img src="img/testimonials-1.jpg" alt="me" width="200" height="200" />
+                </figure>
+                <h2>Seja bem vindo(a) ao meu web site</h2><span class="fa fa-smile-o tada"></span>
+            </div>
+
+            <div class="ctrl">
+                <span class="fa fa-chevron-left" onclick="plusDivs(-1)"></span>
+                <span class="fa fa-chevron-right" onclick="plusDivs(1)"></span>
+            </div>
+
+        </div>
+
+        <div class="intro-fullstack text-center">
+            <article>
+                <span class="fa fa-code"></span>
+                <h2>Font-end</h2>
+                <p>HTML5 / CSS3 / Java Script / Angular</p>
+            </article>
+
+            <article>
+                <span class="fa fa-laptop"></span>
+                <h2>Back-end</h2>
+                <p>C# / Java / Node Js</p>
+            </article>
+
+            <article>
+                <span class="fa fa-database"></span>
+                <h2>Banco de Dados</h2>
+                <p>SQL Server / PostgreSQL</p>
+            </article>
+
+        </div>
+
+    </main>
+
+    <footer class="background-textura text-center">
+
+        <section class="footer-top">
+            markim - 2018
+        </section>
+        <section class="footer-bottom">
+            <span class="fa fa-html5"></span>
+            <span class="fa fa-css3"></span>
+            <span class="icon-js">Js</span> |
+            <span class="fa fa-opera"></span>
+            <span class="fa fa-chrome"></span>
+            <span class="fa fa-firefox"></span>
+        </section>
+
+    </footer>
+
+    <script src="js/site.js"></script>
+    <script src="js/slides.js"></script>
+
+</body>
+
+</html>

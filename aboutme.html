@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>markim</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="navMenu" class="background-textura">
+            <div id="logo" class="logo center-middle">
+                <a href="http://www.globo.com/">markim</a>
+            </div>
+
+            <span id="iconMenu" class="fa fa-bars icon-menu"></span>
+
+
+            <ul id="menu" class="menu">
+                <li>
+                    <a href="#">
+                        <span class="fa fa-home"></span>Home</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-book"></span>Tutoriais</a>
+                </li>
+                <li>
+                    <a id="btnMenu">
+                        <span class="fa fa-terminal"></span>Programmer
+                        <span class="fa fa-level-down" id="icon"></span>
+                    </a>
+                    <ul id="myDropdown" class="sub-menu text-center">
+                        <li>
+                            <a href="#">Meus Projetos</a>
+                        </li>
+                        <li>
+                            <a href="#">About me</a>
+                        </li>
+                        <li>
+                            <a href="#">Curriculo</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-address-card"></span>Contato</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+
+    <main class="container about-me-page">
+
+        <h1>Conhecendo o Markim</h1>
+        <h2>Veja o que você precisa saber sobre mim nas tabs abaixo</h2>
+        <button class="tablink" onclick="openPage('me', this)" id="defaultOpen">Markim <span class="fa fa-smile-o"></span></button>
+        <button class="tablink" onclick="openPage('like', this)">Eu Gosto <span class="fa fa-thumbs-o-up"></span></button>
+        <button class="tablink" onclick="openPage('nlike', this)">Não Gosto <span class="fa fa-thumbs-o-down"></span></button>
+        <button class="tablink" onclick="openPage('objetivos', this)">Meus Objetivos <span class="fa fa-map-signs"></span> </button>
+        <div id="me" class="tabcontent fadeIn text-center">
+            <h3>Oi eu sou o Markim</h3>
+            <div class="efect flipInX">
+                <div class="overlay center-middle">
+                    <a href="" class="text"><span class="fa fa-facebook-f"></span></a>
+                    <a href="" class="text"><span class="fa fa-twitter"></span></a>
+                </div>
+            </div>
+            <p class="p-about-intro">Desenvolvedor fullstack, <span class="negativa">ninja em fazer gambiarras e códigos que só eu entendo</span> desde quando eu entendi o significado desse termo.
+            </p>
+            <a href="" class="btn-intro btn-git flipInX"><span class="fa fa-github"></span> GitHub</a>
+        </div>
+
+        <div id="like" class="tabcontent fadeIn">
+            <h3 class="text-center">Meus gostos são simples</h3>
+            <p>Goso de passar o tempo vendo filmes de comédia, sitcoms, series na netflix,e stand up comedy.</p>
+            <p>Meu doce favorito é Doce de Leite mas quando não tem eu como leite condensado.</p>
+            <p>E claro que uma das coisa que eu mais gosto e programar.</p>
+        </div>
+
+        <div id="nlike" class="tabcontent fadeIn">
+            <h3 class="text-center">Uma lista das 10 coisa que eu não gosto</h3>
+            <ol>
+                <li>Acordar Cedo</li>
+                <li>Dormir Cedo</li>
+                <li>Pequi</li>
+                <li>Pagode</li>
+                <li>Filmes não Americanos</li>
+                <li>Filmes de Ação</li>
+                <li>Novelas</li>
+                <li>Festas/Baladas</li>
+                <li>Avast Antivirus</li>
+                <li>Redes de Computadores</li>
+            </ol>
+            <p>Ahn, e tem ainda o Internet Explorer
+                <span class="fa fa-internet-explorer"></span>, que eu ODEIO.
+            </p>
+        </div>
+
+        <div id="objetivos" class="tabcontent fadeIn">
+            <h3 class="text-center">Meus Objetivo</h3>
+            <p>Terminar Ensino Superior <span class="fa fa-check-square-o"></span></p>
+            <p>Encontrar primeiro emprego como Desenvolvedor <span class="fa fa-square-o"></span></p>
+            <p>Criar um framework <span class="fa fa-square-o"></span></p>
+            <p>Me Tornar um desnvolvedor respeitado <span class="fa fa-square-o"></span></p>
+            <p>Abrir minha empresa <span class="fa fa-square-o"></span></p>
+            <p>Fazer Pós Graduação <span class="fa fa-square-o"></span></p>
+            <p>Me estabelecer financeiramente <span class="fa fa-square-o"></span></p>
+            <p>Viajar para os Estados Unidos <span class="fa fa-square-o"></span></p>
+            <p>Aposentar e colher frutos aos 50 anos <span class="fa fa-square-o"></span></p>
+        </div>
+
+
+    </main>
+
+
+
+    <footer class="background-textura text-center">
+
+        <section class="footer-top">
+            markim - 2018
+        </section>
+        <section class="footer-bottom">
+            <span class="fa fa-html5"></span>
+            <span class="fa fa-css3"></span>
+            <span class="icon-js">Js</span> |
+            <span class="fa fa-opera"></span>
+            <span class="fa fa-chrome"></span>
+            <span class="fa fa-firefox"></span>
+        </section>
+
+    </footer>
+
+    <script src="js/site.js"></script>
+    <script src="js/tabs.js"></script>
+
+</body>
+
+</html>
